@@ -6,6 +6,7 @@
 body {
   margin: 0;
 }
+
 li {
   list-style: none;
   height: 20px;
@@ -17,6 +18,7 @@ li {
   align-items: center;
   text-align: center;
 }
+
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,42 +32,47 @@ ul {
   padding: 0;
   padding-top: 12px;
 }
+
 a {
   text-decoration: none;
 }
+
 .myLogo {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
   padding-left: 24px;
   line-height: 20px;
-  letter-spacing: 0em;
   text-align: center;
 }
+
 nav {
-  background-color: #ffffff;
+  background-color: #fff;
 }
+
 .toggler-icon {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   padding-right: 36px;
 }
+
 .font-style {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
 .main {
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
 }
+
 .main_heading {
   padding-left: 24px;
   padding-top: 114px;
   font-size: 40px;
   font-weight: 700;
   line-height: 52px;
-  letter-spacing: 0em;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +90,7 @@ nav {
   -ms-flex-positive: 0;
   flex-grow: 0;
 }
+
 .main-description {
   margin-top: 12px;
   font-weight: 400;
@@ -91,9 +99,9 @@ nav {
   margin-left: 24px;
   margin-right: 36px;
   color: #344563;
-  letter-spacing: 0em;
   text-align: left;
 }
+
 .connect {
   font-weight: 500;
   font-size: 16px;
@@ -109,6 +117,7 @@ nav {
   -ms-flex-positive: 0;
   flex-grow: 0;
 }
+
 section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -118,6 +127,7 @@ section {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
 .socials {
   width: 50%;
   margin-left: 24px;
@@ -125,6 +135,7 @@ section {
   display: -ms-flexbox;
   display: flex;
 }
+
 .social_medias {
   -webkit-box-flex: 1;
   -ms-flex: 1;
