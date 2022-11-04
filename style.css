@@ -1,3 +1,35 @@
-h1 {
-  color: yellow;
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.myLogo {
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #6070ff;
+  margin-left: 24px;
+}
+header {
+  background-color: #ffffff;
+}
+.toggler-icon {
+  margin-right: 36px;
 }
