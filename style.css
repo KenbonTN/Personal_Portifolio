@@ -595,3 +595,19 @@ form {
   background-color: #6070ff;
   color: white;
 }
+
+.button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.button:focus {
+  border: 0.0625rem solid #2230d2;
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.button-enabled {
+  color: #396df2;
+  border: 0.0625rem solid #6070ff;
+}
