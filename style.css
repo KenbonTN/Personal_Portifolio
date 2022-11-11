@@ -119,6 +119,18 @@ header {
   background-repeat: no-repeat;
 }
 
+@media screen and (min-width: 480px) {
+  .main {
+    background-image: url(images/Header\ bg.svg);
+    background-repeat: none;
+    background-size: contain;
+  }
+  .home-page {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+}
+
 .main_heading,
 .about-me-heading {
   padding-left: 24px;
@@ -187,6 +199,12 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 155px;
+}
+@media screen and (min-width: 480px) {
+  .socials {
+    width: 25%;
+  }
 }
 
 .social_medias {
