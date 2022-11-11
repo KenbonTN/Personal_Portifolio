@@ -14,6 +14,30 @@ body {
   background-color: #e5e5e5;
 }
 
+.nav-items {
+  margin-left: 12px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+nav li:nth-child(3) {
+  margin-right: 154px;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-items {
+    display: none;
+  }
+}
+
+ul nav {
+  display: flex;
+}
+
 header ul li,
 .socials > li {
   list-style: none;
@@ -46,6 +70,21 @@ a {
   text-decoration: none;
 }
 
+@media screen and (min-width: 480px) {
+  .myLogo {
+    margin-left: 155px;
+    width: 76px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
 .myLogo {
   font-weight: 700;
   font-size: 18px;
@@ -58,7 +97,11 @@ a {
 header {
   background-color: #fff;
 }
-
+@media screen and (min-width: 480px) {
+  .toggler-icon {
+    display: none;
+  }
+}
 .toggler-icon {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
