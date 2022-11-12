@@ -221,16 +221,6 @@ header {
   flex-grow: 0;
 }
 
-/* @media screen and (min-width: 480px) {
-  .about-me-heading,
-  .about-me .description,
-  .connect,
-  ul.socials {
-    padding-left: 0;
-    margin-left: 0;
-  }
-} */
-
 .description {
   margin-top: 12px;
   font-weight: 400;
@@ -553,6 +543,14 @@ section .card-description {
 
 .project-button {
   margin-left: 40px;
+}
+
+/* new line */
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .languages {
