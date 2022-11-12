@@ -4,7 +4,7 @@
 }
 
 .container {
-  height: 100vh;
+  /* height: 100vh; */
   border-bottom-left-radius: 80px;
   background-color: #fff;
 }
@@ -117,17 +117,21 @@ header {
 .main {
   background-image: url(images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 36px;
 }
 
 @media screen and (min-width: 480px) {
   .main {
     background-image: url(images/Header\ bg.svg);
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: contain;
   }
   .home-page {
+    margin-top: 73px;
     margin-left: 260px;
     margin-right: 260px;
+    height: 100vh;
   }
 }
 
@@ -156,17 +160,6 @@ header {
   flex-grow: 0;
 }
 
-.description {
-  margin-top: 12px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 24px;
-  margin-right: 36px;
-  color: #344563;
-  text-align: left;
-}
-
 .connect {
   font-weight: 500;
   font-size: 16px;
@@ -181,6 +174,27 @@ header {
   order: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+}
+
+/* @media screen and (min-width: 480px) {
+  .about-me-heading,
+  .about-me .description,
+  .connect,
+  ul.socials {
+    padding-left: 0;
+    margin-left: 0;
+  }
+} */
+
+.description {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 24px;
+  margin-right: 36px;
+  color: #344563;
+  text-align: left;
 }
 
 section {
@@ -199,18 +213,21 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 155px;
-}
-@media screen and (min-width: 480px) {
-  .socials {
-    width: 25%;
-  }
+  /* margin-bottom: 155px; */
 }
 
 .social_medias {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .socials {
+    width: 25%;
+    margin-left: 24px;
+    /* margin-bottom: 255px; */
+  }
 }
 
 .snapshoot-style {
@@ -224,8 +241,28 @@ section {
   order: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
-  padding-left: 16px;
-  padding-right: 16px;
+}
+
+.on-large {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .on-small {
+    display: none;
+  }
+
+  .on-large {
+    display: block;
+  }
+
+  .snapshoot-style {
+    height: auto;
+    width: 50%;
+    padding-left: 24px;
+    padding-top: 24px;
+    border-radius: 8px;
+  }
 }
 
 .card-header {
@@ -248,7 +285,6 @@ section .card-description {
   display: flex;
   margin-left: 0;
   padding-left: 0;
-  width: 375px;
 }
 
 .programming-languages > li {
@@ -311,6 +347,7 @@ section .card-description {
   order: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+  margin-left: 12px;
 }
 
 .notice {
@@ -346,7 +383,9 @@ section .card-description {
   -ms-flex-align: center;
   align-items: center;
   padding: 16px;
-  width: 327px;
+  width: calc(100%-48px);
+  margin-left: 24px;
+  margin-right: 24px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -358,6 +397,45 @@ section .card-description {
   order: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    border-radius: 24px;
+    height: 496px;
+    margin-left: 142px;
+    margin-right: 142px;
+    border-radius: 24px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .third-card {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 114px;
+  }
+
+  .fourth-card {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-direction: row-reverse;
+  }
+
+  .first-card {
+    margin-top: 0px;
+  }
+
+  .second-card {
+    flex-direction: row-reverse;
+  }
 }
 
 .cards {
@@ -387,16 +465,26 @@ section .card-description {
   align-items: center;
 }
 
+.resume-button {
+  margin-left: 24px;
+}
+
 .project-button,
 .resume-button {
   background-color: #fff;
   color: #6070ff;
   font-weight: 500;
   margin-top: 20px;
-  width: 124px;
+  width: 35%;
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+}
+
+@media screen and (min-width: 480px) {
+  .resume-button {
+    width: 20%;
+  }
 }
 
 .about-me {
@@ -405,8 +493,20 @@ section .card-description {
   border-top-right-radius: 80px;
 }
 
-.resume-button {
-  margin-left: 24px;
+@media screen and (min-width: 480px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .written-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 142px;
+  }
 }
 
 .project-button {
