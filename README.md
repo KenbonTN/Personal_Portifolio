@@ -1,20 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile first
+# Portfolio: desktop version
 
-> This is the mobile first html and css project of the first block in which knowledge of Figma, basic HTML semants, CSS Grid and Flexbox combined are integrated.
+> This is the Desktop version html and css project of the second block in which knowledge of Figma, basic HTML semants, CSS Grid, media query and Flexbox combined are integrated.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
 > This is built in a simple, visual , thorough and good looking way.
 > This project require some basic coding understandings like; CSS and HTML.
-> The goal here is to understand how to parse a Figma design to create a UI, to use Flexbox to place elements in the page, to build a personal portfolio site and to use images and backgrounds to enhance the look of the website.
-> It is buil using CSS Grid in the main container that contains all of the cards and Flexbox to lay out an individual card.
+> The goal here is to understand how to create UIs adaptable to different screen sizes using media queries and to understand how to parse a Figma design to create a UI.
+> It is built using CSS Grid in the main container that contains all of the cards and Flexbox to lay out an individual card.
+> Media query is used to make the website responsive(RWD).
 > I didn't implement the detail modal window that requires JavaScript.
 
 ## Built With
 
 - HTML
 - CSS
-  -Figma
+- Figma
 
 ## Getting Started
 
@@ -30,7 +31,7 @@ Any code editor can be used, although in this instance, VS code is used.
 
 ## Authors
 
-👤 **Author1**
+👤 **Kenbon Teshome**
 
 - GitHub: [@githubhandle](https://github.com/KenbonTN)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kenbon-teshome/)
