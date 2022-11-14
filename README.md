@@ -38,7 +38,7 @@ Any code editor can be used, although in this instance, VS code is used.
 
 ## Website-link (online version link)
 
-https://kenbontn.github.io/
+This site is live at https://kenbontn.github.io/Personal_Portifolio/
 
 ## 🤝 Contributing
 
