@@ -12,6 +12,19 @@ body {
   margin: 0;
   background-color: #e5e5e5;
 }
+/* mobile menu */
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.mobile-menu img {
+  width: 100%;
+  position: absolute;
+  margin-right: 25%;
+  border: 2px solid #67798e;
+}
 
 .nav-items {
   margin-left: 12px;
