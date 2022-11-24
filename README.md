@@ -2,12 +2,12 @@
 
 # Portfolio: Mobile Menu
 
-> This is basic html, css and javaScript project of the fourth block in which knowledge of Figma, HTML, CSS, and basic javaScript knowledge are integrated.
+> This is a web built using basic html,css and javaScript knowledge.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
-> This is built in a simple, visual , thorough and good looking way.
+> It is designed in a simple, visual, comprehensive, and good-looking manner.
 > This project require some basic coding understandings like; CSS, HTML and javaScript.
 > The goal here is to use and understand basic javaScript syntax, use javaScript to manipulate DOM elements and use javaScript events.
-> I implemented the mobile menu using javascript.
+> The mobile menu is implemented using javascript.
 
 ## Built With
 
