@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: desktop version
+# Portfolio: Mobile Menu
 
-> This is the mobile version html, css and javaScript project of the fourth block in which knowledge of Figma, HTML, CSS, and basic javaScript knowledge are integrated.
+> This is basic html, css and javaScript project of the fourth block in which knowledge of Figma, HTML, CSS, and basic javaScript knowledge are integrated.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
 > This is built in a simple, visual , thorough and good looking way.
 > This project require some basic coding understandings like; CSS, HTML and javaScript.
