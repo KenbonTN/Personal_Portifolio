@@ -2,20 +2,19 @@
 
 # Portfolio: desktop version
 
-> This is the Desktop version html and css project of the second block in which knowledge of Figma, basic HTML semants, CSS Grid, media query and Flexbox combined are integrated.
+> This is the mobile version html, css and javaScript project of the fourth block in which knowledge of Figma, HTML, CSS, and basic javaScript knowledge are integrated.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
 > This is built in a simple, visual , thorough and good looking way.
-> This project require some basic coding understandings like; CSS and HTML.
-> The goal here is to understand how to create UIs adaptable to different screen sizes using media queries and to understand how to parse a Figma design to create a UI.
-> It is built using CSS Grid in the main container that contains all of the cards and Flexbox to lay out an individual card.
-> Media query is used to make the website responsive(RWD).
-> I didn't implement the detail modal window that requires JavaScript.
+> This project require some basic coding understandings like; CSS, HTML and javaScript.
+> The goal here is to use and understand basic javaScript syntax, use javaScript to manipulate DOM elements and use javaScript events.
+> I implemented the mobile menu using javascript.
 
 ## Built With
 
 - HTML
 - CSS
 - Figma
+- JavaScript
 
 ## Getting Started
 
@@ -23,7 +22,7 @@ This is project is the mobile first portifolio project and it has some further t
 
 ### Prerequisites
 
-Good knowledge of HTML, CSS, Figma and git/Github is required
+Good knowledge of HTML, CSS, JavaScript, Figma and git/Github is required
 
 ### Setup
 
