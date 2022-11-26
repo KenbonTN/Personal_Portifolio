@@ -8,16 +8,13 @@
   display: flex;
   width: 100vh;
   height: 100vh;
-}
-@media screen and (min-width: 420px) {
-  .popup {
-    display: none;
-  }
+  overflow-y: scroll;
 }
 
-.close-image-div {
+.popup-btn {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 #close-btn {
@@ -35,12 +32,6 @@
   line-height: 44px;
   width: fit-content;
   margin-top: 0;
-}
-
-.image {
-  position: absolute;
-  top: 30px;
-  right: 54px;
 }
 
 .card-list-title-popup {
@@ -69,6 +60,31 @@
 
 .card-popup {
   height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 16px;
+  width: (100% - 40%);
+  margin-left: 24px;
+  margin-right: 24px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  flex: none;
+  -webkit-box-ordinal-group: 1;
+  -ms-flex-order: 0;
+  order: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
 }
 
 .project-button-popup {
@@ -82,6 +98,39 @@
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .popup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .popup-description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .close-button {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 25px;
+  }
+
+  .popup-footer {
+    display: flex;
+  }
+
+  .popup-footer p {
+    width: 50%;
+  }
+}
+
 /* popup ends */
 
 .container {
@@ -449,6 +498,14 @@ section {
     padding-top: 24px;
     border-radius: 8px;
   }
+
+  .popup-img {
+    height: auto;
+    width: 100%;
+    padding-left: 24px;
+    padding-top: 24px;
+    border-radius: 8px;
+  }
 }
 
 .card-header {
@@ -580,6 +637,20 @@ section .card-description {
     border: 1px solid #dfe1e6;
     border-radius: 24px;
     height: 496px;
+    margin-left: 142px;
+    margin-right: 142px;
+  }
+
+  .card-popup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    height: fit-content;
+    width: calc(100% - 248px);
     margin-left: 142px;
     margin-right: 142px;
   }
