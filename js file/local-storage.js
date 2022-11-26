@@ -1,7 +1,7 @@
 const form = document.getElementById('contact-form');
 const userName = document.getElementById('name');
 const message = document.getElementById('message');
-const email = document.getElementById('email');
+const emails = document.getElementById('email');
 let localData = {
     name: '',
     email: '',
@@ -14,7 +14,7 @@ let localData = {
 
   form.addEventListener('change', () => {
     localData.name = userName.value;
-    localData.email = email.value;
+    localData.email = emails.value;
     localData.message = message.value;
     storeLocalData();
   });
@@ -22,6 +22,6 @@ let localData = {
   if (JSON.parse(localStorage.getItem('user')) !== null) {
     localData = JSON.parse(localStorage.getItem('name'));
     userName.setAttribute('value', localData.name);
-    email.setAttribute('value', localData.email);
+    emails.setAttribute('value', localData.email);
     message.value = localData.message;
   }
