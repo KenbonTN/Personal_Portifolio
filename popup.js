@@ -6,7 +6,7 @@ const projects = [
     title: 'Tonic',
     technologies: ['css', 'html', 'bootstrap'],
     image: 'images/Snapshoot Portfolio.svg',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 2000s, when an unknown printer took a standard dummy text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://kenbontn.github.io/Personal_Portifolio/',
     source_code: 'https://github.com/kenbontn/Personal_Portifolio/',
   },
@@ -15,7 +15,7 @@ const projects = [
     title: 'Multi-Post <br> Stories',
     technologies: ['html', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot Portfolio2.svg',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1900s, when an unknown printer took a standard dummy text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://kenbontn.github.io/Personal_Portifolio/',
     source_code: 'https://github.com/kenbontn/Personal_Portifolio/',
   },
@@ -24,7 +24,7 @@ const projects = [
     title: 'Tonic',
     technologies: ['css', 'bootstrap', 'ruby'],
     image: 'images/Snapshoot Portfolio3.svg',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1800s, when an unknown printer took a standard dummy text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://kenbontn.github.io/Personal_Portifolio/',
     source_code: 'https://github.com/kenbontn/Personal_Portifolio/',
   },
@@ -33,7 +33,7 @@ const projects = [
     title: 'Tonic',
     technologies: ['css', 'html', 'ruby'],
     image: 'images/Snapshoot Portfolio4.svg',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1700s, when an unknown printer took a standard dummy text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://kenbontn.github.io/Personal_Portifolio/',
     source_code: 'https://github.com/kenbontn/Personal_Portifolio/',
   },
@@ -42,7 +42,7 @@ const projects = [
     title: 'Multi-Post <br> Stories',
     technologies: ['css', 'html', 'ror'],
     image: './images/projects/project-4.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required has been the industry's standard dummy text ever since the 1600s, when an unknown printer took a standard dummy text",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://miltonhenschel.github.io/myPortfolio/',
     source_code: 'https://github.com/miltonHenschel/myPortfolio',
   }
@@ -235,9 +235,9 @@ projectBtn.forEach((button) => {
                           <li>javaScript</li>
                       </ul>
                       <div class="popup-btn">
-                          <button class="project-button-popup button" type="button"> See live <a href="${projects[button.id].live_version}"><img
+                          <button class="project-button-popup button" type="button"> <span>See live </span><a href="${projects[button.id].live_version}"><img
                                       src="images/seeLive.png" alt="See Live"></a></button>
-                          <button class="project-button-popup button" type="button">See Source<a class="social_medias"
+                          <button class="project-button-popup button" type="button"><span>See Source</span><a class="social_medias"
                                   href="${projects[button.id].source_code}">
                                   <img src="images/githublogo.png" alt="Github icon" /></a> </button>
                       </div>
@@ -250,10 +250,6 @@ projectBtn.forEach((button) => {
 
   </div>
       `;
-      body.appendChild(section);
-      const closeBtn = document.getElementById("menu-close-btn");
-      closeBtn.addEventListener("click", () => {
-        body.removeChild(section);
-      });
+
     });
   });
