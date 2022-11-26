@@ -102,8 +102,6 @@
   align-items: center;
   padding: 16px;
   width: (100% - 40%);
-  margin-left: 24px;
-  margin-right: 24px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -115,6 +113,10 @@
   order: 0;
   -ms-flex-positive: 0;
   flex-grow: 0;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 .project-button-popup {
@@ -127,6 +129,9 @@
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -177,7 +182,7 @@
   }
 
   .popup-footer p {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -711,6 +716,7 @@ section .card-description {
     width: calc(100% - 248px);
     margin-left: 142px;
     margin-right: 142px;
+    margin-top: 77px;
   }
 }
 
