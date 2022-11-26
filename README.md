@@ -2,6 +2,7 @@
 
 # Portfolio: Mobile Menu
 
+> In this specific project I have done a client-side validation to catch and throw errors in the UI and also I have processed user input according to business rules.
 > This is a web built using basic html,css and javaScript knowledge.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
 > It is designed in a simple, visual, comprehensive, and good-looking manner.
