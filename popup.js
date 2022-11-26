@@ -199,7 +199,7 @@ projectBtn.forEach((button) => {
       section.className = 'section-menu';
       section.innerHTML = `
       <div class="popup">
-      <section class="card-popup">
+        <section class="card-popup">
           <div id="close-btn">
               <h2 class="popup-header font-style">
               ${projects[button.id].title}
@@ -244,10 +244,9 @@ projectBtn.forEach((button) => {
 
                   </div>
               </div>
-
+              
           </section>
       </section>
-
   </div>
       `;
       body.appendChild(section);
