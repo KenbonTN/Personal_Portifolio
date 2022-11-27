@@ -1,13 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Mobile Menu
+# Portfolio: details popup window
 
-> In this specific project I have done a client-side validation to catch and throw errors in the UI and also I have processed user input according to business rules.
+> In this specific project I have implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I needed to store the information about the projects in a JavaScript object.
 > This is a web built using basic html,css and javaScript knowledge.
 > This project is part of my Microverse exercises, where we learn how to build a personal portifolio starting from mobile version in a professional manners.
 > It is designed in a simple, visual, comprehensive, and good-looking manner.
 > This project require some basic coding understandings like; CSS, HTML and javaScript.
-> The goal here is to implement a popup window that includes the project details in both desktop and mobile. In order to do that, we need to store the information about your projects in a JavaScript object.
+> The goal here is to learn how to use JavaScript to manipulate DOM elements, to use JavaScript events, to understand how to parse a Figma design to create a UI and to use objects to store and access data.
 > The mobile menu is implemented using javascript.
 > This project was done in colaboration with NKETCHOGUE MPATCHIE Henschel
 
