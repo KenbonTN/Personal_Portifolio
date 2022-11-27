@@ -7,7 +7,6 @@ let localData = {
   email: '',
   message: '',
 };
-
 function storeLocalData() {
   localStorage.setItem('user', JSON.stringify(localData));
 }
