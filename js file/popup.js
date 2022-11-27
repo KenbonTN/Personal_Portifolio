@@ -45,7 +45,7 @@ const projects = [
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     live_version: 'https://miltonhenschel.github.io/myPortfolio/',
     source_code: 'https://github.com/miltonHenschel/myPortfolio',
-  }
+  },
 ];
 
 const body = document.querySelector('body');
@@ -191,13 +191,13 @@ prjContent.innerHTML = `
                     <button id= "3" class="project-button button" type="button">See Project</button>
                 </section>
             </section>
-`
+`;
 const projectBtn = document.querySelectorAll('.project-button');
 projectBtn.forEach((button) => {
-    button.addEventListener('click', () => {
-      const section = document.createElement('section');
-      section.className = 'section-menu';
-      section.innerHTML = `
+  button.addEventListener('click', () => {
+    const section = document.createElement('section');
+    section.className = 'section-menu';
+    section.innerHTML = `
       <div class="popup">
       <section class="card-popup">
           <div id="close-btn">
@@ -250,10 +250,10 @@ projectBtn.forEach((button) => {
 
   </div>
       `;
-      body.appendChild(section);
-      const closeBtn = document.getElementById("menu-close-btn");
-      closeBtn.addEventListener("click", () => {
-        body.removeChild(section);
-      });
+    body.appendChild(section);
+    const closeBtn = document.getElementById('menu-close-btn');
+    closeBtn.addEventListener('click', () => {
+      body.removeChild(section);
     });
   });
+});
